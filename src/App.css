@@ -32,7 +32,39 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Menu style 
+  //////    */
+.menubg {
+  background-color: #fbd062;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.bgmenu{
+  position: relative;
+  z-index: 50;
+  
+}
+.menubg:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform-origin: top right;
+  transform: skewY(-4deg);
+}
+.carusel{
+  width: 90%;
+  margin: 0 auto;
 }

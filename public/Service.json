@@ -1,0 +1,32 @@
+[
+    {
+      "_id": 1,
+      "name": "Web & Mobile design",
+      "image": "https://i.ibb.co/xH640vv/service1.png",
+      "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product."
+    },
+    {
+      "_id": 2,
+      "name": "Graphic design",
+      "image": "https://i.ibb.co/Zm6RpLv/service2.png",
+      "description": "Amazing flyers, social media posts and brand representations that would make your brand stand out."
+    },
+    {
+      "_id": 3,
+      "name": "Web development",
+      "image": "https://i.ibb.co/y0SQFkV/service3.png",
+      "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product."
+    },
+    {
+      "_id": 4,
+      "name": "Graphsic Motion",
+      "image": "https://i.ibb.co/pvYbK9d/service4.png",
+      "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product."
+    },
+    {
+      "_id": 1,
+      "name": "Computer Programming",
+      "image": "https://i.ibb.co/7tMTf7j/service5.png",
+      "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product."
+    }
+  ]
