@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import Service from './Service';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Work from './Work';
 
-const Services = () => {
-    const [services, setService] = useState([])
-
-    fetch('Service.json')
+const Works = () => {
+    const [works, setWorks] = useState([])
+console.log(works);
+    fetch('Ourwork.json')
         .then(res => res.json())
-        .then(data => setService(data))
+        .then(data => setWorks(data))
 
 
 
@@ -47,22 +47,20 @@ const Services = () => {
                 }
             }
         ]
-
-    };
-
+    }
     return (
-        <div className='grid overflow mb-40 grid-cols-1  sm:grid-cols-1   md:grid-cols-1  lg:grid-cols-1'>
+        <div className='carusel  px-16 py-20  bg-neutral rounded-box'>
             <h2 className='text-center text-slate-700 dark:text-slate-500 text-6xl	 text-lg mb-9 '>
-                Provide awesome <span className='text-green-900'>Services</span> </h2>
+            Here are some of <span className='text-green-900'> our works: {works.length}</span> </h2>
+                <Slider {...settings}>
+                    {works.map(work => <Work
+                        key={work._id}
+                        work={work}
+                    />)}
+                </Slider>
 
-            <Slider {...settings}>
-                {services.map(service => <Service
-                    key={service._id}
-                    service={service}
-                />)}
-            </Slider>
-        </div>
+            </div>
     );
 };
 
-export default Services;
+export default Works;

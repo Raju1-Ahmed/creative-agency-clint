@@ -51,6 +51,10 @@
   z-index: 50;
   
 }
+.navbg{
+  background-color: #fbd062;
+
+}
 .menubg:after {
   position: absolute;
   width: 100%;
@@ -68,3 +72,12 @@
   width: 90%;
   margin: 0 auto;
 }
+.overflow{
+  overflow: hidden;
+
+}
+
+ /* footer style  */
+ .footerbg{
+  background-color: #fbd062;
+ }

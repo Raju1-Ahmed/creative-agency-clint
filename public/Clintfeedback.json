@@ -1,0 +1,24 @@
+[
+
+    {
+      "_id": 1,
+      "name": "Nash Patrik",
+      "image": "https://i.ibb.co/vZwd0wg/customer-1.png",
+      "position": "CEO, Manpol",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat "
+    },
+    {
+      "_id": 2,
+      "name": "Miriam Barron",
+      "image": "https://i.ibb.co/hXpWH42/customer-2.png",
+      "position": "CEO, Manpol",
+      "description": "Amazing flyers, social media posts and brand representations that would make your brand stand out."
+    },
+    {
+      "_id": 3,
+      "name": "Azix Nikola",
+      "image": "https://i.ibb.co/vHX0T0v/customer-3.png",
+      "position": "CEO, Manpol",
+      "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product."
+    }
+  ]
