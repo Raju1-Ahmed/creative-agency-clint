@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Services = () => {
     const [services, setService] = useState([])
 
-    fetch('Service.json')
+    fetch('http://localhost:5000/service')
         .then(res => res.json())
         .then(data => setService(data))
 

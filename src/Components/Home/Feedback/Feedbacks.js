@@ -5,7 +5,7 @@ const Clints = () => {
     const [feedbacks, setClint] = useState([])
 
 
-    fetch('Clintfeedback.json')
+    fetch('http://localhost:5000/feedback')
         .then(res => res.json())
         .then(data => setClint(data))
 

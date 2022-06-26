@@ -6,8 +6,7 @@ import Work from './Work';
 
 const Works = () => {
     const [works, setWorks] = useState([])
-console.log(works);
-    fetch('Ourwork.json')
+    fetch('http://localhost:5000/works')
         .then(res => res.json())
         .then(data => setWorks(data))
 
