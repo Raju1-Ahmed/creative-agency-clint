@@ -21,7 +21,8 @@ const Footer = () => {
                                 <textarea class="resize-y rounded-md"></textarea>
                             </div>
                             {/* <button class=" w-44 btn justify-start btn-black">Apply</button> */}
-                            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-wide">Send</button>                        </div>
+                            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-wide">Send</button>
+                        </div>
                     </div>
                 </div>
             </div>

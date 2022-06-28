@@ -35,7 +35,7 @@ const Login = () => {
     }
     return (
         <div className='mb-40 mt-40 '>
-            <div id='login' className='grid grid-cols-1 justify-items-center'>
+            <div className='grid grid-cols-1 justify-items-center'>
                 <h2 className="text-center text-2xl font-bold">Login</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="">
