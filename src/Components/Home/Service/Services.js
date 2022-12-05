@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Services = () => {
     const [services, setService] = useState([])
 
-    fetch('http://localhost:5000/service')
+    fetch('https://creative-agency-c2st.onrender.com/service')
         .then(res => res.json())
         .then(data => setService(data))
 
@@ -51,7 +51,7 @@ const Services = () => {
     };
 
     return (
-        <div className='grid overflow mb-40 grid-cols-1  sm:grid-cols-1   md:grid-cols-1  lg:grid-cols-1'>
+        <div className='grid ml-9 mr-9 mb-40 grid-cols-1  sm:grid-cols-1   md:grid-cols-1  lg:grid-cols-1'>
             <h2 className='text-center text-slate-700 dark:text-slate-500 text-6xl	 text-lg mb-9 '>
                 Provide awesome <span className='text-green-900'>Services</span> </h2>
 

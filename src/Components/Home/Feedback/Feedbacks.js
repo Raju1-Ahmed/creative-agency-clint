@@ -5,7 +5,7 @@ const Clints = () => {
     const [feedbacks, setClint] = useState([])
 
 
-    fetch('http://localhost:5000/feedback')
+    fetch('https://creative-agency-c2st.onrender.com/feedback')
         .then(res => res.json())
         .then(data => setClint(data))
 

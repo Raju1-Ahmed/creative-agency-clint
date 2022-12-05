@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  themes: [
+  themes: [ 
     {
       AutoPartsTheme: {
         primary: "#a991f7",

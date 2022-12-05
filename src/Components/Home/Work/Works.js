@@ -6,7 +6,7 @@ import Work from './Work';
 
 const Works = () => {
     const [works, setWorks] = useState([])
-    fetch('http://localhost:5000/works')
+    fetch('https://creative-agency-c2st.onrender.com/works')
         .then(res => res.json())
         .then(data => setWorks(data))
 
@@ -48,7 +48,7 @@ const Works = () => {
         ]
     }
     return (
-        <div className='carusel  px-16 py-20  bg-neutral rounded-box'>
+        <div className='px-16 py-20  bg-neutral rounded-box'>
             <h2 className='text-center text-slate-700 dark:text-slate-500 text-6xl	 text-lg mb-9 '>
             Here are some of <span className='text-green-900'> our works: {works.length}</span> </h2>
                 <Slider {...settings}>

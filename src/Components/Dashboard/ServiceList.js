@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ServiceList = ({serviceList}) => {
-    const { name, image, description } = serviceList;
+    const { name, image, description, price } = serviceList;
 
     return (
         <div className='bg-gray-400	 rounded'>
@@ -11,7 +11,9 @@ const ServiceList = ({serviceList}) => {
             </div>
             <div>
                 <h2 className='font-semibold text-black	 text-xl	'>{name}</h2>
-                <p className='font-light text-black	 text-base	text-center p-2	'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur nostrum, quam, consequuntur aliquam quasi debitis perspiciatis non maxime recusandae quas esse perferendis at nemo voluptatem possimus quae ducimus nihil. Quasi!</p>
+                <p className='font-light text-black	 text-base	text-center p-2	'>{description}</p>
+                <div class="badge badge-accent badge-outline">$ {price}</div>
+
             </div>
         </div>
     );

@@ -43,10 +43,6 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <div class="navbar-end">
-                    <a class="btn btn-ghost normal-case text-black	 text-xl">Get started</a>
-
-                </div>
             </div>
         </div>
 

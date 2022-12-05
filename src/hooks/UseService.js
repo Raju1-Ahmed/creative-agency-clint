@@ -4,7 +4,7 @@ const UseService = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://creative-agency-c2st.onrender.com/service')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);

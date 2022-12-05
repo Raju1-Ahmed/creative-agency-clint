@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='footerbg py-20'>
+        <div className='footerbg fixed py-20'>
             <div className='grid grid-cols-1 sm:grid-cols-1   md:grid-cols-2  lg:grid-cols-2 gap-4'>
                 <div>
                     <h2 className='text-4xl font-semibold text-black p-3 leading-10	'>Let us handle your project, professionally.</h2>
